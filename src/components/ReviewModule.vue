@@ -16,7 +16,7 @@ import "gitalk/dist/gitalk.css";
 import Gitalk from "gitalk";
 
 export default {
-  name: "TableDemo",
+  name: "ReviewModule",
   mounted() {
     const gitalk = new Gitalk({
       clientID: "f0e39100fb4cad63b187",
