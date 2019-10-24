@@ -1,13 +1,6 @@
 <template>
   <div>
-    <div id="tc_s74p1"></div>
-    <!-- <table border="1">
-      <tr :key="i" v-for="i in 5">
-        <td :key="j" v-for="j in 6">OK</td>
-      </tr>
-    </table>-->
     <div id="gitalk-container"></div>
-    <h1>hello world</h1>
   </div>
 </template>
 
@@ -32,10 +25,23 @@ export default {
   }
 };
 </script>
-<style lang="stylus" scoped>
-/* table
-  for i in 0 1 2 3
-    tr:nth-child({i})
-      $set = red blue blue green
-      background ($set[i]) */
+<style lang="stylus">
+$font-color = #68be8d
+
+.gt-action, .gt-link, .gt-btn-preview
+  color $font-color !important
+
+button.gt-btn
+  border-color $font-color !important
+
+.gt-btn-login
+  background $font-color !important
+
+a.gt-header-controls-tip
+  display none
+
+@media (max-width: 900px)
+  .gt-meta
+    margin 0 0 !important
+    text-align left
 </style>
