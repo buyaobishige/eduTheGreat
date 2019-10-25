@@ -2,60 +2,54 @@
   <div class="footer" id="footer">
     <ul class="list-inline footer-links" id="footnav">
       <li>
-        <a href="https://github.com/buyaobishige/eduTheGreat">Github</a>
+        <a href="https://github.com/buyaobishige/eduTheGreat" target="_blank">Github</a>
       </li>
       <li>
         <a
           href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzA5MTQ4NjUzMg==&scene=126&bizpsid=0&subscene=0#wechat_redirectnpm"
-        >
-          东师青年
-        </a>
+          target="_blank"
+        >东师青年</a>
       </li>
       <li>
-        <a href="https://buyaobishige.gitee.io/learning/">学教</a>
+        <a href="https://buyaobishige.gitee.io/learning/" target="_blank">学教</a>
       </li>
       <li>
-        <a href="http://buyaobishige.github.io/eduTheGreat/">功能部</a>
+        <a href="http://buyaobishige.github.io/eduTheGreat/" target="_blank">功能部</a>
       </li>
       <li>
-        <a href="http://wpa.qq.com/msgrd?v=3&uin=838801702&site=qq&menu=yes">联系我</a>
+        <a href="http://wpa.qq.com/msgrd?v=3&uin=838801702&site=qq&menu=yes" target="_blank">联系我</a>
       </li>
     </ul>
+
     <ul class="list-inline">
       <!-- Please also join us at: -->
-      <li class="double">
-        <a href="http://twitter.com/ej_economics">
-          <i aria-hidden="true" class="fa fa-twitter"></i>
+      <li class="third">
+        <a href="https://vuejs.org/" target="_blank">
+          <img class="footerIcon" src="../assets/vue.png" />
         </a>
       </li>
-      <li class="double">
-        <a href="https://de-de.facebook.com/ejeconomics">
-          <i aria-hidden="true" class="fa fa-facebook"></i>
+      <li class="third">
+        <a href="https://vuepress.vuejs.org/" target="_blank">
+          <img class="footerIcon" src="../assets/press.png" />
         </a>
       </li>
-      <li class="double">
-        <a href="https://www.linkedin.com/in/economics-e-journal-25357460">
-          <i class="fa fa-linkedin"></i>
+      <li class="third">
+        <a href="https://vue.ant.design/docs/vue/introduce/" target="_blank">
+          <img class="footerIcon" src="../assets/antd.svg" />
         </a>
       </li>
     </ul>
 
     <ul class="list-inline">
-      <li style="margin-right:25px;">
-        <a href="https://www.ifw-kiel.de/">
-          <img
-            alt="Footer Logo IfW"
-            src="/++theme++zbw.ejDiazo/static/img/logo.ifw.en.bw.trans.invert.png"
-          />
+      <li class="imageWrapper" style="margin-right:25px;width:400px">
+        <a href="http://edu.nenu.edu.cn/">
+          <img alt="Footer Logo IfW" class="footerImg" src="../assets/logo.png" />
         </a>
       </li>
 
-      <li style="margin-left:25px;">
-        <a href="http://zbw.eu/en">
-          <img
-            alt="Footer Logo ZBW"
-            src="/++theme++zbw.ejDiazo/static/img/zbw-logo-trans-invert.png"
-          />
+      <li class="imageWrapper" style="margin-left:25px;">
+        <a href="http://https://buyaobishige.gitee.io/learning/">
+          <img alt="Footer Logo ZBW" class="footerImg" src="../assets/eduLogo.png" />
         </a>
       </li>
     </ul>
@@ -67,6 +61,15 @@ export default { name: "MyFooter" };
 </script>
 
 <style lang="stylus" scoped>
+.footerImg
+  height 70px
+
+.footerIcon
+  width 40px
+
+.imageWrapper
+  background rgba(255, 255, 255, 0.4)
+
 #footer
   background-color #455A64
   color white
@@ -77,7 +80,7 @@ export default { name: "MyFooter" };
 
 .footer-links
   margin-top 1em
-  padding 10px
+  padding-top 10px
 
 .list-inline
   padding-left 0
