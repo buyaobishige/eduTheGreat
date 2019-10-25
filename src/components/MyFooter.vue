@@ -23,33 +23,33 @@
 
     <ul class="list-inline">
       <!-- Please also join us at: -->
-      <li class="third">
+      <li class="second">
         <a href="https://vuejs.org/" target="_blank">
           <img class="footerIcon" src="../assets/vue.png" />
         </a>
       </li>
-      <li class="third">
+      <li class="second">
         <a href="https://vuepress.vuejs.org/" target="_blank">
           <img class="footerIcon" src="../assets/press.png" />
         </a>
       </li>
-      <li class="third">
+      <li class="second">
         <a href="https://vue.ant.design/docs/vue/introduce/" target="_blank">
           <img class="footerIcon" src="../assets/antd.svg" />
         </a>
       </li>
     </ul>
 
-    <ul class="list-inline">
-      <li class="imageWrapper" style="margin-right:25px;width:400px">
+    <ul class="list-inline last">
+      <li class="imageWrapper" id="edulogo">
         <a href="http://edu.nenu.edu.cn/">
-          <img alt="Footer Logo IfW" class="footerImg" src="../assets/logo.png" />
+          <img alt="Footer Logo edulogo" class="footerImg" src="../assets/eduLogo.png" />
         </a>
       </li>
 
-      <li class="imageWrapper" style="margin-left:25px;">
-        <a href="http://https://buyaobishige.gitee.io/learning/">
-          <img alt="Footer Logo ZBW" class="footerImg" src="../assets/eduLogo.png" />
+      <li class="imageWrapper" id="xuexiaologo">
+        <a href="http://buyaobishige.gitee.io/learning/">
+          <img alt="Footer Logo logo" class="footerImg" src="../assets/logo.png" />
         </a>
       </li>
     </ul>
@@ -108,4 +108,21 @@ ul
 
 li a
   color white !important
+
+#xuexiaologo
+  width 383.04px
+
+@media (max-width: 850px)
+  #xuexiaologo
+    margin-top 20px
+
+@media (min-width: 849px)
+  #xuexiaologo
+    margin-left 25px
+
+  #edulogo
+    margin-right 25px
+
+img
+  max-width 100%
 </style>

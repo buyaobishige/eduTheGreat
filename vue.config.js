@@ -1,5 +1,14 @@
 module.exports = {
   publicPath: "/eduTheGreat",
+  devServer: {
+    proxy: {
+      "/server": {
+        target: "http://lin.nenuyouth.com",
+        ws: true,
+        changeOrigin: true
+      }
+    }
+  },
   css: {
     loaderOptions: {
       less: {
