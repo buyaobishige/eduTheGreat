@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1>GO DIE!</h1>
+    <h1>欢迎来到主页！</h1>
     <RecordSubmit />
     <MyImage />
     <ReviewModule reviewId="1" />

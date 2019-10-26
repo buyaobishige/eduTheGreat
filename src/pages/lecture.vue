@@ -14,6 +14,6 @@ import ReviewModule from "../components/ReviewModule.vue";
 
 export default {
   name: "mymain",
-  components: { RecordSubmit, MessageList, ReviewModule }
+  components: { RecordSubmit, MessageList, ReviewModule },
 };
 </script>

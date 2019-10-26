@@ -14,7 +14,7 @@
     <div id="stripe">
       <div class="stripe">
         <div class="img-box">
-          <img alt src="../assets/photo1.jpg" />
+          <img alt src="../assets/photo3.jpg" />
         </div>
         <div class="stripe-text-box">
           <div class="stripe-text">
@@ -35,183 +35,188 @@ export default {
 };
 </script>
 <style lang="stylus">
-$width = 600px
-$height = 450px
-$transition-delayer = 0.3s
-$transition-delayer-slow = 0.6s
-$h4Bottom = 0.55
-$h4Bottom2 = 0.7
-$PBottom3 = 0.6
-$stripe-text-top = -0.6
-$zoom = 1.1
+@media (max-width: 749px)
+  img
+    max-width 100%
 
-#stripe h4
-  color white
-  font-size 20px
-  opacity 0
+@media (min-width: 750px)
+  $width = 600px
+  $height = 450px
+  $transition-delayer = 0.3s
+  $transition-delayer-slow = 0.6s
+  $h4Bottom = 0.55
+  $h4Bottom2 = 0.7
+  $PBottom3 = 0.6
+  $stripe-text-top = -0.6
+  $zoom = 1.1
 
-#stripe p
-  color white
-  opacity 0
+  #stripe h4
+    color white
+    font-size 20px
+    opacity 0
 
-#stripe:hover img
-  transform scale3d($zoom, $zoom, $zoom)
+  #stripe p
+    color white
+    opacity 0
 
-#stripe:hover h4, #stripe:hover p
-  opacity 1
+  #stripe:hover img
+    transform scale3d($zoom, $zoom, $zoom)
 
-#stripe
-  height $height
-  overflow hidden
+  #stripe:hover h4, #stripe:hover p
+    opacity 1
 
-#stripe img
-  height $height
-  margin-top 2%
-  transition all $transition-delayer
+  #stripe
+    height $height
+    overflow hidden
 
-// 外层relative，内层absolute
-#stripe .stripe-text-box
-  position relative
-  height $height
+  #stripe img
+    height $height
+    margin-top 2%
+    transition all $transition-delayer
 
-#stripe:hover .stripe-text-box::after, #stripe:hover .stripe-text-box::before, #stripe:hover .img-box::before, #stripe:hover .img-box::after
-  transform scale3d(1, 1, 1)
-  transition all $transition-delayer-slow
+  // 外层relative，内层absolute
+  #stripe .stripe-text-box
+    position relative
+    height $height
 
-#stripe .stripe-text-box::after
-  transition all $transition-delayer-slow
-  transform scale3d(1, 0, 1)
-  height 29%
-  width 100%
-  content ''
-  position absolute
-  background-color rgba(0, 0, 0, 0.8)
-  top -27%
-  left 0
+  #stripe:hover .stripe-text-box::after, #stripe:hover .stripe-text-box::before, #stripe:hover .img-box::before, #stripe:hover .img-box::after
+    transform scale3d(1, 1, 1)
+    transition all $transition-delayer-slow
 
-#stripe .stripe-text-box::before
-  transition all $transition-delayer-slow
-  height 25%
-  width 100%
-  content ''
-  position absolute
-  background-color rgba(0, 0, 0, 0.8)
-  top -51.5%
-  left 0
-  transform scale3d(1, 0, 1)
+  #stripe .stripe-text-box::after
+    transition all $transition-delayer-slow
+    transform scale3d(1, 0, 1)
+    height 29%
+    width 100%
+    content ''
+    position absolute
+    background-color rgba(0, 0, 0, 0.8)
+    top -27%
+    left 0
 
-#stripe .stripe-text
-  top $stripe-text-top * $height
-  left 0
-  width 100%
-  content ''
-  z-index 10
-  position absolute
+  #stripe .stripe-text-box::before
+    transition all $transition-delayer-slow
+    height 25%
+    width 100%
+    content ''
+    position absolute
+    background-color rgba(0, 0, 0, 0.8)
+    top -51.5%
+    left 0
+    transform scale3d(1, 0, 1)
 
-#stripe .img-box
-  position relative
+  #stripe .stripe-text
+    top $stripe-text-top * $height
+    left 0
+    width 100%
+    content ''
+    z-index 10
+    position absolute
 
-#stripe .img-box::before
-  transform scale3d(1, 0, 1)
-  top 0
-  transition all $transition-delayer-slow
-  left 0
-  width 100%
-  height 25%
-  content ''
-  position absolute
-  background-color rgba(0, 0, 0, 0.8)
-  z-index 10
+  #stripe .img-box
+    position relative
 
-#stripe .img-box::after
-  transform scale3d(1, 0, 1)
-  transition all $transition-delayer-slow
-  top 25%
-  left 0
-  width 100%
-  height 25%
-  content ''
-  position absolute
-  background-color rgba(0, 0, 0, 0.8)
+  #stripe .img-box::before
+    transform scale3d(1, 0, 1)
+    top 0
+    transition all $transition-delayer-slow
+    left 0
+    width 100%
+    height 25%
+    content ''
+    position absolute
+    background-color rgba(0, 0, 0, 0.8)
+    z-index 10
 
-#rotate
-  height $height
-  overflow hidden
+  #stripe .img-box::after
+    transform scale3d(1, 0, 1)
+    transition all $transition-delayer-slow
+    top 25%
+    left 0
+    width 100%
+    height 25%
+    content ''
+    position absolute
+    background-color rgba(0, 0, 0, 0.8)
 
-#rotate img
-  height $height
-  margin-top 2%
-  transition all $transition-delayer-slow
+  #rotate
+    height $height
+    overflow hidden
 
-#rotate:hover img
-  transform rotate(-5deg) scale3d(1.1, 1.1, 1)
-  transition all $transition-delayer-slow
+  #rotate img
+    height $height
+    margin-top 2%
+    transition all $transition-delayer-slow
 
-#wrapper
-  flex-wrap wrap
-  display flex
-  justify-content center
+  #rotate:hover img
+    transform rotate(-5deg) scale3d(1.1, 1.1, 1)
+    transition all $transition-delayer-slow
 
-#square p
-  font-size 18px
-  color #fff
-  position relative
-  margin auto
-  width 60%
-  opacity 0
+  #wrapper
+    flex-wrap wrap
+    display flex
+    justify-content center
 
-#square h4
-  font-size 36px
-  color #fff
-  position relative
-  bottom $h4Bottom * $height
-  margin auto
-  transform scale3d(0.8, 0.8, 1)
+  #square p
+    font-size 18px
+    color #fff
+    position relative
+    margin auto
+    width 60%
+    opacity 0
 
-#square:hover
-  transition all $transition-delayer
-  transform scale3d($zoom, $zoom, $zoom)
+  #square h4
+    font-size 36px
+    color #fff
+    position relative
+    bottom $h4Bottom * $height
+    margin auto
+    transform scale3d(0.8, 0.8, 1)
 
-#square:hover .squareP
-  bottom $PBottom3 * $height
-  opacity 1
-  transition all $transition-delayer
+  #square:hover
+    transition all $transition-delayer
+    transform scale3d($zoom, $zoom, $zoom)
 
-#square:hover .squareH4
-  transform scale3d(1, 1, 1)
-  transition all $transition-delayer
-  bottom $h4Bottom2 * $height
+  #square:hover .squareP
+    bottom $PBottom3 * $height
+    opacity 1
+    transition all $transition-delayer
 
-#square:hover img
-  opacity 0.7
-  transition all $transition-delayer
+  #square:hover .squareH4
+    transform scale3d(1, 1, 1)
+    transition all $transition-delayer
+    bottom $h4Bottom2 * $height
 
-#square img
-  width $width
+  #square:hover img
+    opacity 0.7
+    transition all $transition-delayer
 
-#stuff::after
-  transition all $transition-delayer
-  position absolute
-  top 0
-  left 0
-  width 100%
-  height 100%
-  border-top 1px solid white
-  border-bottom 1px solid white
-  content ''
-  opacity 0
-  transform rotate3d(0, 0, 1, 45deg) scale3d(1, 0, 1)
-  overflow hidden
+  #square img
+    width $width
 
-#square:hover #stuff::after
-  transform rotate3d(0, 0, 1, 45deg) scale3d(1, 1, 1)
-  opacity 1
-  transition all $transition-delayer
+  #stuff::after
+    transition all $transition-delayer
+    position absolute
+    top 0
+    left 0
+    width 100%
+    height 100%
+    border-top 1px solid white
+    border-bottom 1px solid white
+    content ''
+    opacity 0
+    transform rotate3d(0, 0, 1, 45deg) scale3d(1, 0, 1)
+    overflow hidden
 
-#square
-  width $width
-  height $height
-  overflow hidden
-  transition all $transition-delayer
-  background #000
+  #square:hover #stuff::after
+    transform rotate3d(0, 0, 1, 45deg) scale3d(1, 1, 1)
+    opacity 1
+    transition all $transition-delayer
+
+  #square
+    width $width
+    height $height
+    overflow hidden
+    transition all $transition-delayer
+    background #000
 </style>
