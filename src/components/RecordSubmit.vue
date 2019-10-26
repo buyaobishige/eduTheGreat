@@ -20,7 +20,8 @@ export default {
   },
   mounted() {
     let pathname = location.hash.replace(/\//g, "`");
-    _.get("/server/records/recordsHandler.php", {
+    _.get("http://lin.nenuyouth.com/server/records/recordsHandler.php", {
+      // _.get("/server/records/recordsHandler.php", {
       params: { pathname }
     }).then(res => {
       this.views = res.data.views;
