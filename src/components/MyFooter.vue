@@ -14,7 +14,7 @@
         <a href="https://buyaobishige.gitee.io/learning/" target="_blank">学教</a>
       </li>
       <li>
-        <a href="http://buyaobishige.github.io/eduTheGreat/" target="_blank">功能部</a>
+        <a href="http://buyaobishige.github.io/func/" target="_blank">功能部</a>
       </li>
       <li>
         <a href="http://wpa.qq.com/msgrd?v=3&uin=838801702&site=qq&menu=yes" target="_blank">联系我</a>

@@ -2,7 +2,7 @@
   <div class="container">
     <RecordSubmit />
     <Charts />
-    <ReviewModule reviewId="2" />
+    <ReviewModule reviewId="3" />
   </div>
 </template>
 
