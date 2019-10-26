@@ -13,7 +13,7 @@ import MessageList from "../components/MessageList.vue";
 import ReviewModule from "../components/ReviewModule.vue";
 
 export default {
-  name: "mymain",
+  name: "lecture",
   components: { RecordSubmit, MessageList, ReviewModule },
 };
 </script>

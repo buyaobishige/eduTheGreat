@@ -6,12 +6,20 @@
       </a-menu-item>
       <a-menu-item key="home">
         <router-link to="/main">
-          <a-icon type="home" />主页
+          <!-- <a-icon type="home" /> -->
+          主页
         </router-link>
       </a-menu-item>
       <a-menu-item key="app">
         <router-link to="/lecture">
-          <a-icon type="appstore" />讲座信息
+          <!-- <a-icon type="appstore" /> -->
+          讲座
+        </router-link>
+      </a-menu-item>
+      <a-menu-item key="charts">
+        <router-link to="/charts">
+          <!-- <a-icon type="database" /> -->
+          去向
         </router-link>
       </a-menu-item>
       <!-- <a-sub-menu>

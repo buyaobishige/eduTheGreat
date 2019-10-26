@@ -3,6 +3,11 @@
     <Navbar />
     <div class="container">
       <router-view />
+      <div id="components-back-top-demo-custom">
+        <a-back-top>
+          <div class="ant-back-top-inner">TOP</div>
+        </a-back-top>
+      </div>
       <!-- <button @click="nightmode = !nightmode">NIGHT</button> -->
     </div>
     <MyFooter />
