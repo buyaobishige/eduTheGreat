@@ -5,10 +5,14 @@
         <img alt="logo" id="logo" src="../assets/icons/logo.svg" />
       </a-menu-item>
       <a-menu-item key="home">
-        <a-icon type="home" />主页
+        <router-link to="/main">
+          <a-icon type="home" />主页
+        </router-link>
       </a-menu-item>
       <a-menu-item key="app">
-        <a-icon type="appstore" />讲座信息
+        <router-link to="/lecture">
+          <a-icon type="appstore" />讲座信息
+        </router-link>
       </a-menu-item>
       <!-- <a-sub-menu>
         <span class="submenu-title-wrapper" slot="title">
@@ -39,7 +43,7 @@ export default {
   name: "Navbar",
   data() {
     return {
-      current: ["mail"]
+      current: ["home"]
     };
   }
 };

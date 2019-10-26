@@ -2,11 +2,7 @@
   <div :class="nightmode == true ? 'night' : 'daylight'" id="app">
     <Navbar />
     <div class="container">
-      <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
-      <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
-      <router-link to="/main">
-        <a-button type="primary">main</a-button>
-      </router-link>
+      <router-view />
       <!-- <button @click="nightmode = !nightmode">NIGHT</button> -->
     </div>
     <MyFooter />

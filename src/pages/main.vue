@@ -1,6 +1,5 @@
 <template>
   <div class="container">
-    <a href="/">hello</a>
     <h1>GO DIE!</h1>
     <RecordSubmit />
     <MyImage />
