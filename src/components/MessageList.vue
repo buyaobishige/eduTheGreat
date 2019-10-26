@@ -31,7 +31,7 @@ export default {
   methods: {
     messageAqcuisition(faculty = "edu") {
       // _.get(`/api/${faculty}.php`).then(res => {
-      _.get(`http://lin.nenuyouth.com/server/${faculty}.php`).then(res => {
+      _.get(`https://lin.nenuyouth.com/server/${faculty}.php`).then(res => {
         let data = res.data;
         if (faculty == "chinese") {
           data.sort((a, b) => {
