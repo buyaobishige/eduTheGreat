@@ -4,7 +4,7 @@
     <div class="group" style="display:flex;justify-content:space-around">
       <a-button @click="messageAqcuisition('bio')" type="primary">bio</a-button>
       <a-button @click="messageAqcuisition('edu')" type="primary">edu</a-button>
-      <a-button @click="messageAqcuisition('chinese')" type="primary">bio</a-button>
+      <a-button @click="messageAqcuisition('chinese')" type="primary">chinese</a-button>
       <a-button @click="messageAqcuisition('psy')" type="primary">psy</a-button>
     </div>
     <!-- <P>{{list}}</P> -->
@@ -30,7 +30,8 @@ export default {
   },
   methods: {
     messageAqcuisition(faculty = "edu") {
-      _.get(`/server/${faculty}.php`).then(res => {
+      // _.get(`/api/${faculty}.php`).then(res => {
+      _.get(`lin.nenuyouth.com/server/${faculty}.php`).then(res => {
         let data = res.data;
         if (faculty == "chinese") {
           data.sort((a, b) => {
@@ -46,7 +47,7 @@ export default {
   mounted() {
     this.messageAqcuisition("bio");
   }
-}
+};
 </script>
 
 <style>

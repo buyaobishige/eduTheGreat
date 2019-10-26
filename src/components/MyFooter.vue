@@ -110,7 +110,12 @@ li a
   color white !important
 
 #xuexiaologo
-  width 383.04px
+  width 373px
+  padding 0
+  max-width 100% !important
+
+#edulogo
+  padding 0
 
 @media (max-width: 850px)
   #xuexiaologo
