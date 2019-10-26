@@ -1,20 +1,19 @@
 <template>
   <div class="container">
-    <a href="/">hello</a>
-    <h1>GO DIE!</h1>
+    <h1>讲座信息</h1>
     <RecordSubmit />
-    <MyImage />
-    <ReviewModule reviewId="1" />
+    <MessageList />
+    <ReviewModule reviewId="2" />
   </div>
 </template>
 
 <script>
-import MyImage from "../components/MyImage";
 import RecordSubmit from "../components/RecordSubmit";
+import MessageList from "../components/MessageList.vue";
 import ReviewModule from "../components/ReviewModule.vue";
 
 export default {
   name: "mymain",
-  components: { MyImage, RecordSubmit, ReviewModule }
+  components: { RecordSubmit, MessageList, ReviewModule }
 };
 </script>

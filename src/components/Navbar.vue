@@ -1,13 +1,16 @@
 <template>
   <div>
     <a-menu mode="horizontal" v-model="current">
-      <a-menu-item key="mail">
-        <a-icon type="mail" />Navigation One
+      <a-menu-item disabled key="logo">
+        <img alt="logo" id="logo" src="../assets/icons/logo.svg" />
       </a-menu-item>
-      <a-menu-item disabled key="app">
-        <a-icon type="appstore" />Navigation Two
+      <a-menu-item key="home">
+        <a-icon type="home" />主页
       </a-menu-item>
-      <a-sub-menu>
+      <a-menu-item key="app">
+        <a-icon type="appstore" />讲座信息
+      </a-menu-item>
+      <!-- <a-sub-menu>
         <span class="submenu-title-wrapper" slot="title">
           <a-icon type="setting" />Navigation Three - Submenu
         </span>
@@ -26,7 +29,7 @@
           rel="noopener noreferrer"
           target="_blank"
         >Navigation Four - Link</a>
-      </a-menu-item>
+      </a-menu-item>-->
     </a-menu>
   </div>
 </template>
@@ -41,3 +44,18 @@ export default {
   }
 };
 </script>
+<style lang="stylus">
+#logo
+  width 45px
+  animation rotating 6s linear infinite
+
+@keyframes rotating
+  0%
+    transform rotate(0)
+
+  50%
+    transform rotate(180deg)
+
+  100%
+    transform rotate(360deg)
+</style>

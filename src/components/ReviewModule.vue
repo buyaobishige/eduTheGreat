@@ -10,6 +10,7 @@ import Gitalk from "gitalk";
 
 export default {
   name: "ReviewModule",
+  props: ["reviewId"],
   mounted() {
     const gitalk = new Gitalk({
       clientID: "f0e39100fb4cad63b187",
@@ -19,7 +20,7 @@ export default {
       admin: ["buyaobishige"],
       id: location.pathname, // Ensure uniqueness and length less than 50
       distractionFreeMode: false, // ,Facebook-like distraction free mode
-      number: 1
+      number: Number(this.reviewId)
     });
     gitalk.render("gitalk-container");
   }
