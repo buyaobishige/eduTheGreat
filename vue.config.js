@@ -6,6 +6,11 @@ module.exports = {
         target: "http://lin.nenuyouth.com",
         ws: true,
         changeOrigin: true
+      },
+      "/api": {
+        target: "http://web-plus.com",
+        ws: true,
+        changeOrigin: true
       }
     }
   },
