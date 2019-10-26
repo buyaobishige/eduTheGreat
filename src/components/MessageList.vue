@@ -30,7 +30,7 @@ export default {
   },
   methods: {
     messageAqcuisition(faculty = "edu") {
-      _.get(`/api/${faculty}.php`).then(res => {
+      _.get(`/server/${faculty}.php`).then(res => {
         let data = res.data;
         if (faculty == "chinese") {
           data.sort((a, b) => {
