@@ -2,10 +2,10 @@
   <div>
     <div>
       <a-menu mode="horizontal" v-model="current">
-        <a-menu-item @click="messageAqcuisition('edu')" key="edu">教育学部</a-menu-item>
-        <a-menu-item @click="messageAqcuisition('bio')" key="bio">生命科学学院</a-menu-item>
-        <a-menu-item @click="messageAqcuisition('psy')" key="psy">心理学院</a-menu-item>
-        <a-menu-item @click="messageAqcuisition('chinese')" key="chinese">文学院</a-menu-item>
+        <a-menu-item @click="messageAqcuisition('edu')" key="edu">教育</a-menu-item>
+        <a-menu-item @click="messageAqcuisition('bio')" key="bio">生科</a-menu-item>
+        <a-menu-item @click="messageAqcuisition('psy')" key="psy">心理</a-menu-item>
+        <a-menu-item @click="messageAqcuisition('chinese')" key="chinese">文学</a-menu-item>
       </a-menu>
     </div>
     <!-- <P>{{list}}</P> -->
