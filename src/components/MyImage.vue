@@ -1,14 +1,18 @@
 <template>
   <div id="wrapper">
-    <div id="square">
-      <img alt src="../assets/photo1.jpg" />
-      <h4 class="squareH4">生涯规划馆</h4>
-      <p class="squareP">我组在韩冬老师指导下做的帮助大一新生适应大学生活的活动,我组用web开发技术把各种数据可视化、系统化地呈现给大家。</p>
-      <div id="stuff"></div>
+    <div>
+      <div id="square">
+        <img alt src="../assets/photo1.jpg" />
+        <h4 class="squareH4">生涯规划馆</h4>
+        <p class="squareP">我组在韩冬老师指导下做的帮助大一新生适应大学生活的活动,我组用web开发技术把各种数据可视化、系统化地呈现给大家。</p>
+        <div id="stuff"></div>
+      </div>
     </div>
 
-    <div id="rotate">
-      <img alt src="../assets/photo2.jpg" />
+    <div>
+      <div id="rotate">
+        <img alt src="../assets/photo2.jpg" />
+      </div>
     </div>
 
     <div id="stripe">
@@ -26,6 +30,158 @@
         </div>
       </div>
     </div>
+
+    <div style="width:100%"></div>
+
+    <div class="magicCard">
+      <ul class="flex-box">
+        <li>
+          <div class="box">
+            <div class="relative-box">
+              <div class="front">
+                <p class="head">HTML &amp; CSS</p>
+                <img
+                  alt="HTML &amp; CSS Icon"
+                  src="https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2018/10/Asset-13%403x.png"
+                />
+              </div>
+              <div class="back">
+                <img
+                  alt="HTML &amp; CSS Icon"
+                  class="backicon"
+                  src="https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2018/08/idea%403x2.png"
+                />
+                <p class>HTML &amp; CSS</p>
+                <p>The first two languages every future developer should learn, HTML and CSS are known as the "building blocks" of the web</p>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="relative-box">
+              <div class="front">
+                <p class="head">HTML &amp; CSS</p>
+                <img
+                  alt="HTML &amp; CSS Icon"
+                  src="https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2018/10/Asset-13%403x.png"
+                />
+              </div>
+              <div class="back">
+                <img
+                  alt="HTML &amp; CSS Icon"
+                  class="backicon"
+                  src="https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2018/08/idea%403x2.png"
+                />
+                <p class>HTML &amp; CSS</p>
+                <p>The first two languages every future developer should learn, HTML and CSS are known as the "building blocks" of the web</p>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="relative-box">
+              <div class="front">
+                <p class="head">HTML &amp; CSS</p>
+                <img
+                  alt="HTML &amp; CSS Icon"
+                  src="https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2018/10/Asset-13%403x.png"
+                />
+              </div>
+              <div class="back">
+                <img
+                  alt="HTML &amp; CSS Icon"
+                  class="backicon"
+                  src="https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2018/08/idea%403x2.png"
+                />
+                <p class>HTML &amp; CSS</p>
+                <p>The first two languages every future developer should learn, HTML and CSS are known as the "building blocks" of the web</p>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="relative-box">
+              <div class="front">
+                <p class="head">HTML &amp; CSS</p>
+                <img
+                  alt="HTML &amp; CSS Icon"
+                  src="https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2018/10/Asset-13%403x.png"
+                />
+              </div>
+              <div class="back">
+                <img
+                  alt="HTML &amp; CSS Icon"
+                  class="backicon"
+                  src="https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2018/08/idea%403x2.png"
+                />
+                <p class>HTML &amp; CSS</p>
+                <p>The first two languages every future developer should learn, HTML and CSS are known as the "building blocks" of the web</p>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="relative-box">
+              <div class="front">
+                <p class="head">HTML &amp; CSS</p>
+                <img
+                  alt="HTML &amp; CSS Icon"
+                  src="https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2018/10/Asset-13%403x.png"
+                />
+              </div>
+              <div class="back">
+                <img
+                  alt="HTML &amp; CSS Icon"
+                  class="backicon"
+                  src="https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2018/08/idea%403x2.png"
+                />
+                <p class>HTML &amp; CSS</p>
+                <p>The first two languages every future developer should learn, HTML and CSS are known as the "building blocks" of the web</p>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="relative-box">
+              <div class="front">
+                <p class="head">HTML &amp; CSS</p>
+                <img
+                  alt="HTML &amp; CSS Icon"
+                  src="https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2018/10/Asset-13%403x.png"
+                />
+              </div>
+              <div class="back">
+                <img
+                  alt="HTML &amp; CSS Icon"
+                  class="backicon"
+                  src="https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2018/08/idea%403x2.png"
+                />
+                <p class>HTML &amp; CSS</p>
+                <p>The first two languages every future developer should learn, HTML and CSS are known as the "building blocks" of the web</p>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div style="width:100%"></div>
+
+    <div id="cube">
+      <div class="cube">
+        <div class="topFacet"></div>
+        <div class="bottomFacet"></div>
+        <div class="frontFacet"></div>
+        <div class="backFacet"></div>
+        <div class="rightFacet"></div>
+        <div class="leftFacet"></div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -35,21 +191,144 @@ export default {
 };
 </script>
 <style lang="stylus">
+$width = 600px
+$height = 450px
+$transition-delayer = 0.3s
+$transition-delayer-slow = 0.6s
+$transition-delayer-slower = 1s
+$h4Bottom = 0.55
+$h4Bottom2 = 0.7
+$PBottom3 = 0.6
+$stripe-text-top = -0.6
+$zoom = 1.1
+$cubeWidth = 200px
+
+#cube
+  width $cubeWidth
+  height $cubeWidth
+  margin 100px 0 100px 0
+.cube
+  width $cubeWidth
+  height $cubeWidth
+  transform-style preserve-3d
+  position relative
+  transform rotateX(33.5deg) rotateY(45deg)
+  animation fastspin 2s ease-in-out infinite 1s
+
+.cube div
+  position absolute
+  // top 100px
+  // left 30%
+  border 1px solid black
+  width $cubeWidth
+  height $cubeWidth
+  background rgba(0, 0, 0, 0.1)
+
+.cube div.topFacet
+  transform rotateX(90deg) translateZ(($cubeWidth / 2))
+
+.cube div.bottomFacet
+  transform rotateX(-90deg) translateZ(($cubeWidth / 2))
+
+.cube div.frontFacet
+  transform translateZ(($cubeWidth / 2))
+
+.cube div.backFacet
+  transform rotateX(-180deg) translateZ(($cubeWidth / 2))
+
+.cube div.rightFacet
+  transform rotateY(90deg) translateZ(($cubeWidth / 2))
+
+.cube div.leftFacet
+  transform rotateY(-90deg) translateZ(($cubeWidth / 2))
+
+@keyframes fastspin
+  0%
+    transform rotateX(-33.5deg) rotateY(45deg)
+
+  40%, to
+    transform rotateX(-33.5deg) rotateY(-315deg)
+
+// magic box
+.box
+  width 260px
+  height 285px
+  margin 16px
+  perspective 1000px // 重要！
+
+.backicon
+  width 56px
+
+.relative-box
+  transform-style preserve-3d
+  position relative
+
+.flex-box
+  display flex
+  justify-content center
+  flex-wrap wrap
+  align-content space-around
+  max-width 908px
+
+.flex-box .head
+  font-size 20px
+
+.back
+  border 4px solid #999999
+  transform rotateY(180deg)
+  position absolute
+  top 0
+  left 0
+  width 260px
+  height 285px
+  padding 24px
+  border 4px solid rgb(153, 153, 153)
+  display flex
+  flex-direction column
+  align-items center
+  justify-content center
+  backface-visibility hidden
+  transition all $transition-delayer-slow ease
+
+.box:hover .back
+  transform rotateY(360deg)
+  transition all $transition-delayer-slow ease
+
+.box:hover .front
+  transform rotateY(180deg)
+  transition all $transition-delayer-slow ease
+
+.front
+  position absolute
+  top 0
+  left 0
+  backface-visibility hidden
+  transition all $transition-delayer-slow ease
+  width 260px
+  height 285px
+  padding 24px
+  border 2px solid rgb(153, 153, 153)
+  display flex
+  flex-direction column
+  align-items center
+  justify-content center
+
+.front p, .back p
+  font-weight 700
+
+.front img
+  width 60%
+
+.magicCard ul
+  list-style-type none
+  line-height 1.6
+  padding-inline-start 0
+
 @media (max-width: 749px)
   img
     max-width 100%
 
 @media (min-width: 750px)
-  $width = 600px
-  $height = 450px
-  $transition-delayer = 0.3s
-  $transition-delayer-slow = 0.6s
-  $h4Bottom = 0.55
-  $h4Bottom2 = 0.7
-  $PBottom3 = 0.6
-  $stripe-text-top = -0.6
-  $zoom = 1.1
-
   #stripe h4
     color white
     font-size 20px
@@ -68,6 +347,7 @@ export default {
   #stripe
     height $height
     overflow hidden
+    display block
 
   #stripe img
     height $height
